@@ -3,6 +3,6 @@ class Unit:
 		self.white = white
 		self.pos = pos
 	def str(self, char):
-		return (char.upper() if self.white else char) + " at " + self.pos
+		return (char.upper() if self.white else char) + " at " + str(self.pos)
 	def moves(self,board):
 		return []
